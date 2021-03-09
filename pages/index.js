@@ -1,12 +1,13 @@
-import { Animated, Basic, bounce, Combined } from '../shared/styles'
+import 'twin.macro'
+import { Animated, basicStyles, Combined } from '../shared/styles'
 
 const Home = () => (
-  <div>
-    <Basic>Cool Styles</Basic>
+  <div tw="py-12 px-8 bg-purple-100" >
+    <div css={basicStyles}>Cool Styles</div>
     <Combined>
       With <code>:hover</code>.
     </Combined>
-    <Animated animation={bounce}>Let's bounce.</Animated>
+    <Animated >Let's bounce.</Animated>
   </div>
 )
 
