@@ -1,4 +1,4 @@
-# Emotion Example
+# Twin.macro Emotion Example
 
 Extract and inline critical css with
 [@emotion/react](https://github.com/emotion-js/emotion/tree/master/packages/react),
